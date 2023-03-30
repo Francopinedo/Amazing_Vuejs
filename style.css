@@ -1,0 +1,139 @@
+.nav-link{
+    /*color: aliceblue !important;*/
+    background-color: transparent;
+    color: #FFC8C8;
+    border: solid 2px #FFC8C8; 
+    border-radius: 5px;
+    text-align: center;
+}
+.nav-link:hover{  
+    color: rgb(255, 0, 85);
+    border: solid 2px rgb(255, 0, 85); 
+
+}
+
+#myCarousel {
+    width: 100% !important;
+    height: 100px !important;
+}
+
+.img-carousel {
+    height: 400px !important;
+    object-fit: cover;
+}
+
+nav {
+    background-color: transparent !important;
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 1% ;
+}
+
+.nav-img {
+    width: 15rem !important;
+    object-fit: cover;
+    
+}
+
+
+
+body {
+    background: rgb(62, 65, 73);
+    background: radial-gradient(circle, rgba(62, 65, 73, 1) 70%, rgba(255, 200, 200, 1) 100%);
+    color: #FFC8C8;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#sticky-footer {
+    background-color: #FFC8C8 !important;
+    color: #3E4149 !important;
+}
+
+.card {
+    background-color: transparent !important;
+    font-size: 1rem;
+}
+
+.card_detail {
+    background-color: transparent !important;
+    font-size: 1.3rem;
+}
+
+.card-img_detail {
+    width: 100% !important;
+    object-fit: cover;
+    height: 15rem !important;
+    
+}
+
+.card-img {
+    width: 100% !important;
+    object-fit: cover;
+    height: 10rem !important;
+}
+
+.card-body_detail{
+    min-height: 10rem !important;
+    width: 60rem  !important;
+}
+
+.card-body{
+    min-height: 10rem !important;
+}
+
+.card-text{
+    min-height: 5rem;
+}
+
+.btn-card {
+    width: 100%;
+}
+
+.btn {
+    background-color: #FFC8C8 !important;
+}
+
+.btn:hover{
+    color: black;
+    background-color: rgb(255, 0, 85) !important;
+}
+
+.tittle{
+    z-index: 1;
+    top: 10vh;
+    background-color:transparent;   
+    color:white;
+}
+
+.tittle-text{
+   font-size: 10vh;
+}
+
+.text-detail{
+    margin: 1vh !important;
+    color: #FFC8C8;
+}
+
+.input-group-text,#search{
+ background-color: #FFC8C8 ;
+ color: #3E4149 !important ;
+ border-color: #FFC8C8 ;
+}
+
+
+#search{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #FFC8C8 !important;
+    padding: 0%;
+}
+
+#search::placeholder{
+    color: #3E4149 !important ;
+}
+
+.form-control{
+    background-color: #FFC8C8 !important;
+}
